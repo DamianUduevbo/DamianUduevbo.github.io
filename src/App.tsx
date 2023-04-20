@@ -101,6 +101,12 @@ function App() {
 
             <Grid rows='2' columns='2' spacing='4'
               className='relative grid grid-cols-3 grid-flow-row gap-4 group text-left scale-y-100 ease-in-out duration-300'>
+                
+              <GridTile title='Covey.Town - Spotify Integration' year='2023'
+                bubbleTags={[ 'React', 'TypeScript', 'Model View Controller', 'REST API', 'Spotify API']}
+                link='https://github.com/neu-cs4530/spring-23-team-709'>
+                A social media platform that allows users to create and join virtual towns. Users can chat with each other, play games, listen to music and more.
+              </GridTile>
 
               <GridTile title='Image Processor' year='2022'
                 bubbleTags={['Java', 'Model View Controller', 'Design Patterns', 'Java Swing']}
@@ -132,7 +138,6 @@ function App() {
                 link='https://github.com/DamianUduevbo/CS3650p2-du-bm'>
                 Custom FUSE file system project, capable of mounting 1MB disk images.
               </GridTile>
-
               <GridTile title='Calulator App' year='2022' bubbleTags={['Assembly', 'Linux']}
                 link='https://github.com/DamianUduevbo/CS3650-Assignment2'>
                 A simple 4-function calculator app written in Assembly code.
