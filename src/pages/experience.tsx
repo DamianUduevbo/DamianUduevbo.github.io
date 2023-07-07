@@ -13,7 +13,7 @@ const experiences = () => {
             })}
         </div>
         <a className='hover-underline-animation' href='https://drive.google.com/file/d/1QzvjR_DA1A-oamQk-4_ypjMkfAV76sS3/view'>
-            <span className='text-white'>View My Resume</span>
+            <span className='text-white text-xl'>View My Resume</span>
         </a>
     </section>
   )

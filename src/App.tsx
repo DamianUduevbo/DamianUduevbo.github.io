@@ -15,8 +15,11 @@ function App() {
     <BrowserRouter>
     <nav className='absolute top-0 right-0 z-50 space-x-5 m-5 flex flex-row items-center justify-end'>
         <div className='space-x-5'>
-          <a href='https://drive.google.com/file/d/1QzvjR_DA1A-oamQk-4_ypjMkfAV76sS3/view?usp=sharing' className='text-white hover-underline-animation text-lg'>Resume</a>
-          <a href='#full-projects-page' className='text-white hover-underline-animation  text-lg'>Projects</a>
+          <a className='text-white hover-underline-animation text-xl'
+          href='https://drive.google.com/file/d/1QzvjR_DA1A-oamQk-4_ypjMkfAV76sS3/view?usp=sharing' >
+            Resume
+          </a>
+          <a href='#full-projects-page' className='text-white hover-underline-animation text-xl'>Projects</a>
         </div>
         <div className='space-x-5 flex flex-row'>
           <a href='https://www.linkedin.com/in/damianuduevbo/'>
