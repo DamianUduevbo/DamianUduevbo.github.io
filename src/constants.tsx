@@ -3,7 +3,7 @@ export const ExperienceData = [
     {
         name: 'Authored (getauthored.com)',
         position: 'Full-Stack and Data Engineer',
-        techStack: ['React', 'TypeScript', 'Model View Controller', 'REST API', 'Spotify API', 'CI/CD'],
+        techStack: ['React', 'TypeScript', 'TailwindCSS', 'Django', 'REST API', 'Web scraping', 'CI/CD'],
         description: [
             `• Utilized BeautifulSoup, TorPy, and Selenium to scrape reputable websites, collecting of over 15,000 data points
             for analysis, and conducted extensive data cleaning using fuzzy string matching algorithms.`,
@@ -30,7 +30,7 @@ export const ExperienceData = [
     {
         name: 'Oasis at NEU',
         position: 'Web Developer',
-        techStack: ['React', 'TypeScript', 'Model View Controller', 'REST API', 'Spotify API', 'CI/CD'],
+        techStack: ['React', 'JavaScript', 'Google Firebase'],
         description: [
             `• Collaborated with a four-person team over an 8-week period to create a full-stack 
             application using React.js and Firebase Cloud Firestore for efficient database management.`,
