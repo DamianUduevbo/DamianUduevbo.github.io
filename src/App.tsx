@@ -29,7 +29,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route index element={<ExperienceSection />} />
+        <Route index element={<LandingPage />} />
         <Route path='/' element={<LandingPage />} />
         <Route path='/projects' element={<ProjectsFull />} />
         <Route path='*' element={<LandingPage />} />
