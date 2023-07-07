@@ -46,7 +46,7 @@ const Landing = () => {
         <HomeSection />
         <AboutSection />
         <ExperienceSection />
-        <ProjectsSection />
+        <ProjectsFullSection />
       </div>
     </div>
   )

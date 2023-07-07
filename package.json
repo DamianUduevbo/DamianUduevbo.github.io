@@ -1,6 +1,6 @@
 {
-  "homepage": "https://damianuduevbo.github.io/projects",
-  "name": "new-website",
+  "homepage": "https://damianuduevbo.github.io/",
+  "name": "damianuduevbo.github.io",
   "version": "3.1.0",
   "private": true,
   "dependencies": {
