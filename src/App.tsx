@@ -31,7 +31,7 @@ function App() {
       <Routes>
         <Route index element={<ExperienceSection />} />
         <Route path='/' element={<LandingPage />} />
-        <Route path='projects' element={<ProjectsFull />} />
+        <Route path='/projects' element={<ProjectsFull />} />
         <Route path='*' element={<LandingPage />} />
       </Routes>
 
