@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import LandingPage from './pages/landing';
 import ProjectsFull from './pages/projectsFull';
+import ExperienceSection from './pages/experience';
 
 import { ReactComponent as GitHubIcon } from './assets/github.svg';
 import { ReactComponent as LinkedInIcon } from './assets/linkedin.svg';
@@ -26,10 +27,11 @@ function App() {
           </a>
         </div>
       </nav>
+
       <Routes>
-        <Route index element={<LandingPage />} />
+        <Route index element={<ExperienceSection />} />
         <Route path='/' element={<LandingPage />} />
-        <Route path='new-website/projects' element={<ProjectsFull />} />
+        <Route path='projects' element={<ProjectsFull />} />
         <Route path='*' element={<LandingPage />} />
       </Routes>
 
