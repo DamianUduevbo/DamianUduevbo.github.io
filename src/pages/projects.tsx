@@ -14,7 +14,7 @@ const projects = () => {
           </ProjectsCard>
         })}
       </div>
-      <a href='new-website/projects' className='hover-underline-animation'>
+      <a href='/projects' className='hover-underline-animation'>
         <span className='text-white'>View More</span>
       </a>
     </section>
