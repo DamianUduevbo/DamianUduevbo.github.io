@@ -28,10 +28,11 @@ function App() {
       </nav>
       <Routes>
         <Route index element={<LandingPage />} />
-        <Route path='projects' element={<ProjectsFull />} />
+        <Route path='/' element={<LandingPage />} />
+        <Route path='new-website/projects' element={<ProjectsFull />} />
         <Route path='*' element={<LandingPage />} />
       </Routes>
-      
+
       <footer className='flex flex-col w-full h-full bg-black justify-center items-center'>
         <span className='flex border-t-2 border-white text-white text-lg w-1/2 text-center justify-center py-2'>
           Damian Uduevbo © 2023
