@@ -84,7 +84,7 @@ export const ProjectData = [
         date: '2022'
     },
     {
-        name: 'Calulator App',
+        name: 'Calculator App',
         techStack: ['Assembly', 'Linux'],
         githubLink: 'https://github.com/DamianUduevbo/CS3650-Assignment2',
         description: `A simple 4-function calculator app written in Assembly code.`,
