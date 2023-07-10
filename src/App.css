@@ -113,7 +113,32 @@ relative flex flex-col bg-black bg-opacity-10 text-black rounded-xl p-3 md:w-ful
   transition: scale(1) 0.3s ease-in-out;
 }
 
-/* smoothly scale it up on hover and change the background color to white */
+/*
+#projects-full.relevanceCard  {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  z-index: 1000;
+  outline: 2px solid rgba(165, 165, 165, 0.1);
+  box-shadow: 2px 2px 5px rgba(165, 165, 165, 0.4);
+  transition: scale(1) 0.3s ease-in-out;
+}
+
+#projects-full.relevanceCard::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -100;
+  opacity: 0.5;
+}
+*/
+
 .relevanceCard:hover {
   transform: scale(1.05);
   background-color: rgba(255, 255, 255, 0.2);

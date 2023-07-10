@@ -15,7 +15,7 @@ const aboutme = () => {
                 full-stack enigeering, game development, AI/ML, cybersecurity, blockchain, and more,
               </span> and have an endless passion for creation. I am proficient
               in <span className='underline decoration-pink-400'>
-                Java, TypeScript, Python, Lua, C and C#,
+                Java, TypeScript, Python, Lua, C and C++,
               </span> and have published several projects that make use of these skills.
             </p>
             <p className='text-white'>

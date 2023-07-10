@@ -5,7 +5,7 @@ import {ReactComponent as LinkIcon} from '../assets/linkIcon.svg'
 
 const ProjectsCardFull = (props : IProjectProps) => {
   return (
-    <div id='projects-full' className='relevanceCard md:w-1/3'>
+    <div id='projects-full' className="relevanceCard md:w-1/3">
         {/* <img className='w-full rounded-xl' src={ProjectImg} alt='placeholder' />*/}
         <div className='w-full'>
             <h1 className='text-white md:text-3xl'>
