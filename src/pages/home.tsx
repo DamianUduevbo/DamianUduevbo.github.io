@@ -35,7 +35,7 @@ const Home = () => {
         {`${subText + (subText === SUBTEXT ? '' : '■')}`}
       </h2>
       <a className='scrollButton' href='#about-me'>
-        \TEST BASE URL/
+        \HELLO FROM THE BASE REPO/
       </a>
     </section>
   )
