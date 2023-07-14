@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+//import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import LandingPage from './pages/landing';
 import ProjectsFull from './pages/projectsFull';
@@ -12,7 +12,7 @@ document.title = 'Damian Uduevbo\'s site'
 
 function App() {
   return (
-    <BrowserRouter>
+    <div>
     <nav className='absolute top-0 right-0 z-50 space-x-5 m-5 flex flex-row items-center justify-end'>
         <div className='space-x-5'>
           <a className='text-white hover-underline-animation text-xl'
@@ -31,13 +31,8 @@ function App() {
         </div>
       </nav>
 
-      <Routes>
-        <Route index element={<LandingPage />} />
-        <Route path='/' element={<LandingPage />} />
-        <Route path='/projects' element={<ProjectsFull />} />
-        <Route path='*' element={<LandingPage />} />
-      </Routes>
-
+      <LandingPage />
+      
       <footer className='flex flex-col w-full h-full bg-black justify-center items-center'>
         <span className='flex border-t-2 border-white text-white text-lg w-1/2 text-center justify-center py-2'>
           Damian Uduevbo © 2023
@@ -46,7 +41,7 @@ function App() {
           Personal Website v3.0
         </span>
       </footer>
-    </BrowserRouter>
+    </div>
   );
 }
 
