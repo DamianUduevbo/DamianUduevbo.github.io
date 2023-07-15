@@ -38,7 +38,7 @@ function App() {
           Damian Uduevbo © 2023
         </span>
         <span className='text-white text-xs text-center items-center justify-center pb-4'>
-          Personal Website v3.0
+          Personal Website v3.0.1
         </span>
       </footer>
     </div>
