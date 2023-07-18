@@ -5,12 +5,11 @@ export const ExperienceData = [
         position: 'Full-Stack and Data Engineer',
         techStack: ['React', 'TypeScript', 'TailwindCSS', 'Django', 'REST API', 'Web scraping', 'CI/CD'],
         description: [
-            `• Utilized BeautifulSoup, TorPy, and Selenium to scrape reputable websites, collecting of over 15,000 data points
-            for analysis, and conducted extensive data cleaning using fuzzy string matching algorithms.`,
+            '• Utilized BeautifulSoup, TorPy, and Selenium to scrape reputable websites, collecting of over 15,000 data points for analysis, and conducted extensive data cleaning using fuzzy string matching algorithms.',
             `• Redesigned and developed the landing page using React, TypeScript, and Tailwind CSS, improving user experience 
             and accessibility, and engineered a robust back end service using Django, streamlining the application’s core 
             functionality and performance.`,
-            `• Established a CI/CD pipeline with GitHub Actions and Vercel, ensuring timely updates and seamless deployment.`
+            "• Established a CI/CD pipeline with GitHub Actions and Vercel, ensuring timely updates and seamless deployment.",
         ],
         date: 'May 2023 - Present'
     },
