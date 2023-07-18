@@ -5,11 +5,10 @@ export const ExperienceData = [
         position: 'Full-Stack and Data Engineer',
         techStack: ['React', 'TypeScript', 'TailwindCSS', 'Django', 'REST API', 'Web scraping', 'CI/CD'],
         description: [
-            '• Utilized BeautifulSoup, TorPy, and Selenium to scrape reputable websites, collecting of over 15,000 data points for analysis, and conducted extensive data cleaning using fuzzy string matching algorithms.',
-            `• Redesigned and developed the landing page using React, TypeScript, and Tailwind CSS, improving user experience 
-            and accessibility, and engineered a robust back end service using Django, streamlining the application’s core 
-            functionality and performance.`,
-            "• Established a CI/CD pipeline with GitHub Actions and Vercel, ensuring timely updates and seamless deployment.",
+            '• Utilized BeautifulSoup and Selenium to scrape reputable websites for over 20,000 data points for analysis. Cleaned data using fuzzy string-matching algorithms, shortening the processing time by 50%.',
+            '• Developed the web app’s front-end using React, Typescript, and Tailwind CSS, improving user experience and accessibility. Engineered a robust back-end using Django, streamlining the application’s core functionality and performance.',
+            '• Generated interest by developing a newsletter system with over 100 authors, publishers, and agents signing up as recipients.',
+            '• Established a CI/CD pipeline with GitHub Actions and Vercel, ensuring timely app updates and seamless deployment.',
         ],
         date: 'May 2023 - Present'
     },
@@ -18,11 +17,11 @@ export const ExperienceData = [
         position: 'Embedded Software Developer',
         techStack: ['C', 'Arduino', 'UX Testing', 'Embedded Software', 'Computer-Aided Design', 'Product Development'],
         description: [
-            `• Collaborated with a team of mechanical and electrical engineers to develop a device aimed at enhancing the learning experience for beginners playing the recorder.`,
-            `• Contributed to the decision-making process regarding instrument selection for the detachable device, conducting thorough user experience analysis to guide the team's direction.`,
-            `• Utilized Fusion 360 to create 3D models of the attachment, ensuring optimal fit and functionality, and brought the designs to life using 3D printing.`,
-            `• Utilized Arduino to program an LED light system, illuminating specific recorder holes for accurate finger placement.`,
-            `• Showcased the product's capabilities to a diverse student audience, collecting feedback for further enhancements and future iterations.`
+            `• Collaborated with a multidisciplinary team to develop a device enhancing beginner's recorder learning experience.`,
+            `• Guided instrument selection through user experience analysis, contributing to decision-making process.`,
+            '• Created and 3D printed attachment models using Fusion 360 for optimal fit and functionality.',
+            '• Programmed LED light system with Arduino to illuminate recorder holes for precise finger placement.',
+            '• Demonstrated the product\'s capabilities to diverse student audience, collecting feedback for improvements.'
         ],
         date: 'September 2022 - December 2022'
     },
@@ -31,12 +30,9 @@ export const ExperienceData = [
         position: 'Web Developer',
         techStack: ['React', 'JavaScript', 'Google Firebase'],
         description: [
-            `• Collaborated with a four-person team over an 8-week period to create a full-stack 
-            application using React.js and Firebase Cloud Firestore for efficient database management.`,
-            `• Catered to college students seeking to post and access dorm reviews, 
-            simplifying their housing decision-making process.`,
-            `• Conducted a formal presentation of the demo product to a diverse student audience, 
-            gathering valuable feedback for further refinements and advancements`
+            `• Collaborated with a four-person team over a 12-week period to create a full-stack application using React and Firebase Cloud Firestore for efficient database management`,
+            `• Catered to college students seeking to post and access dorm reviews, simplifying their housing decision-making process`,
+            `• Conducted a presentation of the demo product to an audience of 100 students, gathering valuable feedback for further refinements.`
         ],
         date: 'January 2022 - April 2022'
     },
