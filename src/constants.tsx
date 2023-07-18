@@ -6,7 +6,8 @@ export const ExperienceData = [
         techStack: ['React', 'TypeScript', 'TailwindCSS', 'Django', 'REST API', 'Web scraping', 'CI/CD'],
         description: [
             '• Utilized BeautifulSoup and Selenium to scrape reputable websites for over 20,000 data points for analysis. Cleaned data using fuzzy string-matching algorithms, shortening the processing time by 50%.',
-            '• Developed the web app’s front-end using React, Typescript, and Tailwind CSS, improving user experience and accessibility. Engineered a robust back-end using Django, streamlining the application’s core functionality and performance.',
+            '• Developed the web app’s front-end using React, Typescript, and Tailwind CSS, improving user experience and accessibility.',
+            '• Engineered a robust back-end using Django, streamlining the application’s core functionality and performance.',
             '• Generated interest by developing a newsletter system with over 100 authors, publishers, and agents signing up as recipients.',
             '• Established a CI/CD pipeline with GitHub Actions and Vercel, ensuring timely app updates and seamless deployment.',
         ],
@@ -86,3 +87,11 @@ export const ProjectData = [
         date: '2022'
     },
 ]
+
+/*
+- Collaborated with a team of mechanical and electrical engineers to develop a user-friendly device aimed at enhancing the learning experience for beginners playing the recorder.
+- Contributed to the decision-making process regarding instrument selection for the detachable device, conducting thorough user experience analysis to guide the team's direction.
+- Utilized Fusion 360 to create precise 3D models of the attachment, ensuring optimal fit and functionality, and employing 3D printing techniques to bring the designs to life.
+- Utilized Arduino to program an LED light system, effectively illuminating specific recorder holes and facilitating accurate finger placement for users.
+- Formally showcased the team's achievements and product capabilities to a diverse student audience, actively engaging participants and collecting invaluable feedback for further enhancements and future iterations.
+ */
