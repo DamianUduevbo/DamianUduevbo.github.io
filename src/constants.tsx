@@ -3,12 +3,13 @@ export const ExperienceData = [
     {
         name: 'Authored (getauthored.com)',
         position: 'Full-Stack and Data Engineer',
-        techStack: ['React', 'TypeScript', 'TailwindCSS', 'Django', 'REST API', 'Web scraping', 'CI/CD'],
+        techStack: ['React', 'TypeScript', 'TailwindCSS', 'Axios', 'MongoDB', 'Google Cloud', 'REST API', 'Web scraping', 'CI/CD'],
         description: [
-            '• Utilized BeautifulSoup and Selenium to scrape reputable websites for over 20,000 data points for analysis. Cleaned data using fuzzy string-matching algorithms, shortening the processing time by 50%.',
-            '• Developed the web app’s front-end using React, Typescript, and Tailwind CSS, improving user experience and accessibility.',
-            '• Engineered a robust back-end using Django, streamlining the application’s core functionality and performance.',
-            '• Generated interest by developing a newsletter system with over 100 authors, publishers, and agents signing up as recipients.',
+            '• Scraped over 30 online book stores for data using Beautiful Soup and Selenium, collecting over 40,000 books to build the platform’s database.',
+            '• Cleaned data using fuzzy string-matching algorithms, shortening the initial processing time by 50%.',
+            '• Refined the web app’s front-end using Next.js, Typescript, and Tailwind CSS, improving user experience and accessibility',
+            '• Developed a robust back end using Axios and MongoDB, signing up over 200 authors, publishers, and agents as beta testers.',
+            //'• Generated interest by developing a newsletter system with over 100 authors, publishers, and agents signing up as recipients.',
             '• Established a CI/CD pipeline with GitHub Actions and Vercel, ensuring timely app updates and seamless deployment.',
         ],
         date: 'May 2023 - Present'
@@ -16,13 +17,14 @@ export const ExperienceData = [
     {
         name: 'Michael J. and Ann Sherman Center',
         position: 'Embedded Software Developer',
-        techStack: ['C', 'Arduino', 'UX Testing', 'Embedded Software', 'Computer-Aided Design', 'Product Development'],
+        techStack: ['C', 'Arduino', 'UX Analysis & Testing', 'Embedded Software', 'Computer-Aided Design', 'Product Development'],
         description: [
-            `• Collaborated with a multidisciplinary team to develop a device enhancing beginner's recorder learning experience.`,
-            `• Guided instrument selection through user experience analysis, contributing to decision-making process.`,
-            '• Created and 3D printed attachment models using Fusion 360 for optimal fit and functionality.',
-            '• Programmed LED light system with Arduino to illuminate recorder holes for precise finger placement.',
-            '• Demonstrated the product\'s capabilities to diverse student audience, collecting feedback for improvements.'
+            `• Collaborated with engineers to design musical instrument devices, using CAD and Arduino, and produced two prototype devices.`,
+            //`• Collaborated with a multidisciplinary team to develop a device enhancing beginner's recorder learning experience.`,
+            `• Influenced the product selection process via UX analysis, leading to the choice of creating recorder attachments for new players.`,
+            '• Produced CAD models of the attachment using Fusion 360, ensuring an optimal fit and impeccable functionality for users.',
+            '• Integrated an LED light systems and 20 songs using Arduino, enhancing the user experience by illuminating recorder holes for precise finger placement',
+            '• Showcased the product\'s capabilities to a wide audience, collecting feedback for improvements from 20 attendees.'
         ],
         date: 'September 2022 - December 2022'
     },
@@ -31,9 +33,9 @@ export const ExperienceData = [
         position: 'Web Developer',
         techStack: ['React', 'JavaScript', 'Google Firebase'],
         description: [
-            `• Collaborated with a four-person team over a 12-week period to create a full-stack application using React and Firebase Cloud Firestore for efficient database management`,
-            `• Catered to college students seeking to post and access dorm reviews, simplifying their housing decision-making process`,
-            `• Conducted a presentation of the demo product to an audience of 100 students, gathering valuable feedback for further refinements.`
+            `• Collaborated in a team to build a college dorm review app using React and Firebase, onboarding 80 students as testers.`,
+            `• Catered to college students seeking to post and access dorm reviews, simplifying their housing decision-making process.`,
+            `• Presented a demo product to an audience, gathering valuable feedback from 100 students for further refinements.`
         ],
         date: 'January 2022 - April 2022'
     },
@@ -78,6 +80,20 @@ export const ProjectData = [
         githubLink: '',
         description: 'A private webscraping utility.',
         date: '2022'
+    },
+    {
+        name: 'Custom FTP Client',
+        techStack: ['Python', 'Linux', 'Socket Programming'],
+        githubLink: 'https://github.com/DamianUduevbo/CS3700-ftp',
+        description: 'A File Transfer Protocol (FTP) client app. Supports file and folder uploads, downloads, deletions, and listing. Also features copying and pasting. Network code written from scratch',
+        date: '2023'
+    },
+    {
+        name: 'BGP Router',
+        techStack: ['Python', 'Linux', 'Socket Programming'],
+        githubLink: 'https://github.com/DamianUduevbo/CS3700-bgp-router',
+        description: `A mock BGP router capable of doing all of the essential functions of a real router but in simulated environment.`,
+        date: '2023'
     },
     {
         name: 'Calculator App',
