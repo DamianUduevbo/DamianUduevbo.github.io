@@ -18,7 +18,7 @@ const ExperienceCard = (props: IExperienceProps) => {
         <h2 className='text-inherit italic md:text-2xl'>{props.position}</h2>
       </div>
       <h2 className=' font-medium text-pink-300 text-xl'>{props.date}</h2>
-      <div className='relative text-inherit py-4 text-lg md:text-2xl'>
+      <div className='relative text-inherit py-4 text-lg'>
         {parsedChildren}
       </div>
       <div className='flex flex-col justify-end bottom-0 space-y-3'>
