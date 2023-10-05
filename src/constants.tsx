@@ -3,16 +3,16 @@ export const ExperienceData = [
     {
         name: 'Authored (getauthored.com)',
         position: 'Full-Stack and Data Engineer',
-        techStack: ['React', 'TypeScript', 'TailwindCSS', 'Axios', 'MongoDB', 'Google Cloud', 'REST API', 'Web scraping', 'CI/CD'],
+        techStack: ['React', 'TypeScript', 'TailwindCSS', 'Axios', 'MongoDB', 'Google Cloud', 'REST API', 'Web Scraping', 'CI/CD'],
         description: [
-            '• Scraped over 30 online book stores for data using Beautiful Soup and Selenium, collecting over 40,000 books to build the platform’s database.',
-            '• Cleaned data using fuzzy string-matching algorithms, shortening the initial processing time by 50%.',
-            '• Refined the web app’s front-end using Next.js, Typescript, and Tailwind CSS, improving user experience and accessibility',
+            '• Designed web scraping algorithms to collect data from online bookstores using Beautiful Soup and Selenium, gathering over 40,000 books to build the platform’s database.',
+            '• Cleaned data using SQL and fuzzy string-matching algorithms, shortening the processing time by 50%.',
+            '• Refined the web app’s front-end using Next.js, Typescript, and Tailwind CSS, improving user experience and accessibility.',
             '• Developed a robust back end using Axios and MongoDB, signing up over 200 authors, publishers, and agents as beta testers.',
             //'• Generated interest by developing a newsletter system with over 100 authors, publishers, and agents signing up as recipients.',
-            '• Established a CI/CD pipeline with GitHub Actions and Vercel, ensuring timely app updates and seamless deployment.',
+            '• Developed algorithms that quantify writing agents\' interest levels in book pitches, allowing authors to effectively tailor their pitches.',
         ],
-        date: 'May 2023 - Present'
+        date: 'May 2023 - September 2023'
     },
     {
         name: 'Michael J. and Ann Sherman Center',
@@ -23,8 +23,8 @@ export const ExperienceData = [
             //`• Collaborated with a multidisciplinary team to develop a device enhancing beginner's recorder learning experience.`,
             `• Influenced the product selection process via UX analysis, leading to the choice of creating recorder attachments for new players.`,
             '• Produced CAD models of the attachment using Fusion 360, ensuring an optimal fit and impeccable functionality for users.',
-            '• Integrated an LED light systems and 20 songs using Arduino, enhancing the user experience by illuminating recorder holes for precise finger placement',
-            '• Showcased the product\'s capabilities to a wide audience, collecting feedback for improvements from 20 attendees.'
+            '• Integrated an LED light systems and 20 songs using Arduino, enhancing the user experience by illuminating recorder holes for precise finger placement.',
+            //'• Showcased the product\'s capabilities to a wide audience, collecting feedback for improvements from 20 attendees.'
         ],
         date: 'September 2022 - December 2022'
     },
