@@ -1,6 +1,39 @@
 
 export const ExperienceData = [
     {
+        name: 'Fidelity Investments',
+        position: 'Full-Stack Engineering Intern',
+        techStack: ['AngularJS', 'Jasmine Unit Testing'],
+        description: [
+            '•	Contributed to rewrite of cloud virtual machine creation and management platform’s UI used by thousands of internal clients.',
+            '•	Conducted rigorous test-driven development using Jasmine, creating comprehensive unit tests to ensure code reliability.',
+            '•	Facilitated technical stand-up meetings and tracked project progress, ensuring timely updates to meet deadlines.',            
+        ],
+        date: 'June 2024 - August 2024'
+    },
+    {
+        name: 'Sandbox at NEU',
+        position: 'Mobile App Developer',
+        techStack: ['React Native', 'Firebase', 'Kanban'],
+        description: [
+            '•	Developed blogging app for Pasta Zaddy, a private pasta chef, connecting him with his fanbase of 2,000 followers.',
+            '•	Implemented key features allowing users to view recipes, upcoming events and manage reservations.',
+            '•	Communicated with Pasta Zaddy for feedback, demonstrating adaptability and client focus.'                      
+        ],
+        date: 'September 2023 – April 2024'
+    },
+    {
+        name: 'Generate Product Development',
+        position: 'Software Developer',
+        techStack: ['React Native', 'Tailwind CSS', 'Go', 'Docker', 'PostgreSQL'],
+        description: [
+            '•	Collaborated with developers and designers to build Carbon, a social media-style investing app for novice and expert stock traders.',
+            '•	Led front-end development by styling the UI to match Figma mockups, ensuring a visually appealing and user-friendly design.',
+            '•	Contributed to app’s core functionality by implementing Clerk for user authentication, allowing users to sync E-Trade account data.'                      
+        ],
+        date: 'September 2023 – April 2024'
+    },
+    {
         name: 'Authored (getauthored.com)',
         position: 'Full-Stack and Data Engineer',
         techStack: ['React', 'TypeScript', 'TailwindCSS', 'Axios', 'MongoDB', 'Google Cloud', 'REST API', 'Web Scraping', 'CI/CD'],

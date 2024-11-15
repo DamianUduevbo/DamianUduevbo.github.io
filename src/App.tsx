@@ -7,10 +7,12 @@ import LandingPage from './pages/landing';
 
 import { ReactComponent as GitHubIcon } from './assets/github.svg';
 import { ReactComponent as LinkedInIcon } from './assets/linkedin.svg';
+import { useEffect } from 'react';
 
 document.title = 'Damian Uduevbo'
 
 function App() {
+  
   return (
     <div className='bg-black'>
     <nav className='absolute top-0 right-0 z-50 space-x-5 m-5 flex flex-row items-center justify-end'>
